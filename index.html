@@ -16,40 +16,47 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="head">
-      <nav>
+    <header class="page-header">
+      <div class="container">
         <!-- Логотип -->
         <a href="#" class="logo"
           ><span>Web</span> <span class="header-logo">Studio</span></a
         >
-        <!-- Навігація -->
-        <ul class="site-nav list">
-          <li>
-            <a href="./index.html" class="link current">Студія</a>
+        <nav>
+          <!-- Навігація -->
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Аудентифікація -->
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" class="link">Портфоліо</a>
-          </li>
-          <li>
-            <a href="#" class="link">Контакти</a>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <!-- Аудентифікація -->
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Hero -->
       <section class="hero">
         <div class="container">
-          <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="title">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
           <button type="button" class="button">Замовити послугу</button>
         </div>
       </section>
